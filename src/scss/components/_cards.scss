@@ -1,0 +1,173 @@
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  &__item {
+    margin: 0 10px 55px;
+  }
+
+  &__link {
+    color: $second-color;
+  }
+  
+  &__hover {
+    transition-duration: 0.3s;
+    &:hover {
+      transform: scale(0.93);
+    }
+  }
+
+  &__content {
+    position: relative;
+    max-width: 391px;
+    background: url(/assets/img/svg/mobile.svg) 0 0/100% auto no-repeat;
+
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+    text-decoration: none;
+    user-select: none;
+    border-radius: 3px;
+    background-size: 100% 100%;
+    padding: 26px 8px 40px;
+
+    img {
+      height: 560px;
+      width: 279px;
+      object-fit: cover;
+    }
+    &_desktop {
+      max-width: 1200px;
+      width: 1200px;
+      background: url(/assets/img/svg/desktop.svg) 0 0/100% auto no-repeat;
+      & .cards__about {
+        max-width: 1200px;
+        width: 1184px;
+        img {
+          width: 1184px;
+        }
+      }
+      .cards__info {
+        width: 1184px;
+      }
+    }
+    &_tablet {
+      max-width: 820px;
+      width: 820px;
+      background: url(/assets/img/svg/tablet.svg) 0 0/100% auto no-repeat;
+      & .cards__about {
+        max-width: 820px;
+        width: 804px;
+        img {
+          width: 804px;
+        }
+      }
+      .cards__info {
+        width: 804px;
+      }
+    }
+    @media (max-width: $desktop) {
+      max-width: 820px;
+      width: 820px;
+      & .cards__about {
+        max-width: 820px;
+        width: 804px;
+        img {
+          width: 804px;
+          object-fit: contain;
+        }
+      }
+      .cards__info {
+        width: 804px;
+      }
+    }
+    @media (max-width: $tablet-width) {
+      max-width: 391px;
+      width: 391px;
+      & .cards__about {
+        max-width: 391px;
+        width: 375px;
+        img {
+          width: 375px;
+          object-fit: contain;
+        }
+      }
+      .cards__info {
+        width: 375px;
+      }
+    }
+    @media (max-width: $phoneLandscape) {
+      max-width: 291px;
+      width: 291px;
+      & .cards__about {
+        max-width: 291px;
+        width: 275px;
+        img {
+          width: 275px;
+          object-fit: cover;
+        }
+      }
+      .cards__info {
+        width: 275px;
+      }
+    }
+  }
+
+  &__topbar {
+    font-size: 13px;
+    text-align: center;
+    color: $black;
+    padding: 0 50px;
+    position: relative;
+    bottom: 10px;
+  }
+
+  &__bottombar {
+    position: relative;
+    top: 15px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  &__name {
+    font-family: 'Panama', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  &__info {
+    height: 566px;
+    width: 279px;
+    border: 1px solid black;
+  }
+
+  &__about {
+    max-width: 279px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+
+  p {
+    font-size: 1.2em;
+    word-break: break-word;
+    padding: 10px;
+    text-align: justify;
+  }
+
+  &__close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px 0 10px;
+    span {
+      cursor: pointer;
+      font-size: 24px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.gratitude {
+  &__grid {
+    padding: 10px 20px 55px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px 35px;
+    @media (max-width: $tabletLandscape) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    &_column {
+      grid-column-start: 2;
+      grid-column-end: 2;
+      grid-row-start: 1;
+      grid-row-end: 3;
+      @media (max-width: $tabletLandscape) {
+        grid-column: auto;
+        grid-row: auto;
+      }
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

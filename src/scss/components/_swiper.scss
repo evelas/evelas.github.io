@@ -1,0 +1,19 @@
+.swiper-container {
+  overflow: unset !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  top: -9px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 21px !important;
+}
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+  left: auto !important;
+  right: 30px !important;
+}

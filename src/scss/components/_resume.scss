@@ -1,0 +1,17 @@
+.resume {
+  text-align: center;
+  padding-bottom: 55px;
+  object {
+    padding-top: 10px;
+    width: 100%;
+    height: 850px;
+    @media (max-width: $tablet) {
+      width: 90%;
+      height: 750px;
+      margin: auto;
+    }
+  }
+  @media (max-width: $tabletLandscape) and (min-width: $tablet) {
+    height: 100vh;
+  }
+}

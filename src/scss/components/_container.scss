@@ -1,0 +1,21 @@
+.container {
+  max-width: calc(100% - 140px);
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (max-width: $tabletLandscape) {
+    max-width: calc(100% - 46px * 2);
+  }
+}
+
+@media (max-width: $tablet) {
+  .container {
+    max-width: calc(100% - 70px);
+  }
+}
+
+@media (max-width: $phoneLandscape) {
+  .container {
+    max-width: calc(100% - 30px);
+  }
+}

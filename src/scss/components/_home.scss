@@ -1,0 +1,37 @@
+.home {
+  &__tabs {
+    color: $white;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    @media (max-width: $phoneLandscape) {
+      flex-direction: column;
+    }
+    div {
+      display: flex;
+      align-items: center;
+      &:last-child span {
+        display: none;
+      }
+      @media (max-width: $phoneLandscape) {
+        flex-direction: column;
+      }
+    }
+    span {
+      margin: 0 15px;
+      font-size: 24px;
+      font-weight: bold;
+      @media (max-width: $phoneLandscape) {
+        margin: 15px 15px 12px;
+      }
+    }
+    h2 {
+      cursor: pointer;
+    }
+    h2.active {
+      text-decoration: underline;
+      cursor: default;
+    }
+  }
+}

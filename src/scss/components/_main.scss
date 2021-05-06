@@ -1,0 +1,23 @@
+body {
+  background-color: $black;
+}
+.main {
+  background-color: $black;
+  &__wrapper {
+    width: 100%;
+    max-width: 1250px;
+    margin: auto;
+    &_contacts {
+      max-width: 450px;
+    }
+  }
+
+  &__info {
+    padding: 50px 0 20px;
+    color: $white;
+    text-align: center;
+    h1 {
+      text-transform: uppercase;
+    }
+  }
+}
