@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[8],{54:function(e,s,c){"use strict";c.r(s);var a=c(1);c(0);s.default=function(){return Object(a.jsx)("div",{className:"main__wrapper",children:Object(a.jsxs)("div",{className:"resume",children:[Object(a.jsx)("div",{className:"main__info",children:Object(a.jsx)("h1",{children:"Resume"})}),Object(a.jsx)("iframe",{className:"resume__frame",title:"resume",src:"https://vk.com/doc375446290_600553039?hash=e8919205c8e5aea88b&dl=8a6f897b5dc01fd569"})]})})}}}]);
+//# sourceMappingURL=8.4c5c37a7.chunk.js.map
