@@ -19,11 +19,17 @@ body {
 
 h1 {
   font-size: 48px;
+  @media (max-width: $phoneLandscape) {
+    font-size: 31px;
+  }
 }
 
 h2 {
   font-weight: 600;
   font-size: 28px;
+  @media (max-width: $phoneLandscape) {
+    font-size: 22px;
+  }
 }
 
 a {
