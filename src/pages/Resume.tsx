@@ -8,9 +8,7 @@ const Resume: React.FC = () => {
         <div className="main__info">
           <h1>Resume</h1>
         </div>
-        <object data="https://volspb.ru/play/83315.pdf" type="application/pdf">
-          <embed src="https://volspb.ru/play/83315.pdf" type="application/pdf" />
-        </object>
+        <iframe className="resume__frame" title="resume" src="https://vk.com/doc375446290_600553039?hash=e8919205c8e5aea88b&dl=8a6f897b5dc01fd569" ></iframe>
       </div>
     </div>
   );
