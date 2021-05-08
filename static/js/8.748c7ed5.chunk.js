@@ -1,0 +1,2 @@
+(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[8],{54:function(e,s,r){"use strict";r.r(s);var a=r(1);r(0);s.default=function(){return Object(a.jsx)("div",{className:"main__wrapper",children:Object(a.jsxs)("div",{className:"resume",children:[Object(a.jsx)("div",{className:"main__info",children:Object(a.jsx)("h1",{children:"Resume"})}),Object(a.jsx)("iframe",{className:"resume__frame",title:"resume",src:"https://volspb.ru/play/Shuvalov.pdf"})]})})}}}]);
+//# sourceMappingURL=8.748c7ed5.chunk.js.map

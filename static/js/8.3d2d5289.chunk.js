@@ -1,2 +1,0 @@
-(this.webpackJsonpportfolio=this.webpackJsonpportfolio||[]).push([[8],{54:function(e,s,r){"use strict";r.r(s);var c=r(1);r(0);s.default=function(){return Object(c.jsx)("div",{className:"main__wrapper",children:Object(c.jsxs)("div",{className:"resume",children:[Object(c.jsx)("div",{className:"main__info",children:Object(c.jsx)("h1",{children:"Resume"})}),Object(c.jsx)("iframe",{className:"resume__frame",title:"resume",src:"https://volspb.ru/play/83315.pdf"})]})})}}}]);
-//# sourceMappingURL=8.3d2d5289.chunk.js.map
